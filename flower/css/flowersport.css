@@ -1,0 +1,319 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none; /*去掉顺序列表默认样式*/
+}
+
+body {
+    font: 16px/1.5 'Microsoft YaHei', 'sans-serif';
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/*默认样式*/
+.nav {
+    width: 100%;
+    height: 79px;
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+
+    margin: 0 auto;
+}
+
+/*navContent内部内容*/
+.logo {
+    width: 150px;
+    height: 50px;
+
+    float: left;
+    margin-top: 14px;
+}
+/*行内元素无宽高属性*/
+.logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+.navList li{
+    float: left;
+    width: 86px;
+    height: 100%;
+
+}
+.navList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition:color linear .5s ;
+}
+.navList li a:hover{
+    color: #16b0bc;
+}
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+.backTop{
+    width: 36px;
+    height: 36px;
+    background: #5bc0de;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
+    position: fixed;
+    right: 10px;
+    bottom:10px;
+}
+.backTop:hover{
+    background: blue;
+}
+.topBar{
+    width: 100%;
+    height: 120px;
+    background: #F1F1F1;
+    text-align: center;
+    line-height: 120px;
+    /*padding: 10px 30px;*/
+    color: #F67A82;
+    margin-top: 79px;
+}
+.topBar h2{
+    font-size: 35px;
+    font-weight: 400;
+
+}
+.content{
+    width: 100%;
+    height: 1242px;
+    background: #F1F1F1;
+}
+.content .contentLeft{
+    width: 877.5px;
+    height: 1180px;
+    float: left;
+    background: #ffffff;
+    margin-left: 90px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contentLeft .contentList{
+    width: 817px;
+    height: 220px;
+    /*background: #ffff00;*/
+    margin-left: 30px;
+    border-bottom: solid 1px #cccccc;
+}
+.imgBox{
+    width: 160px;
+    height: 160px;
+    margin-top: 30px;
+    float: left;
+    /*background: #cccccc;*/
+}
+.imgBox img{
+    width: 160px;
+    height: 160px;
+}
+.contentList .itemInfo{
+    float: left;
+    width: 637px;
+    height: 100%;
+    font-size: 14px;
+    color: #76838f;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.itemInfo h2 a{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+    font-size: 22px;
+    color: #2a333c;
+    transition: all ease .5s;
+}
+.itemInfo h2 a:hover{
+    color: #16b0bc;
+    text-decoration: underline;
+}
+.itemInfo p.infoDesc{
+    padding: 11px 0;
+    height: 2.8em;
+    font-size: 16px;
+    overflow: hidden;
+    position: relative;
+}
+.itemInfo .infoOther{
+    color: rgba(0,0,0,0.3);
+    font-size: 14px;
+}
+/*.itemInfo p.infoDesc:after{
+    content:'...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}*/
+.content .contentRight{
+    width: 262.5px;
+    height: 354px;
+    background: #ffffff;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.fenye .pageup{
+    width: 74px;
+    height: 39px;
+    text-align: center;
+    line-height: 39px;
+    margin-left: 300px;
+    float: left;
+    border: solid 1px #5bc0de;
+    background: #cccccc;
+}
+.num1,.num2,.num3{
+    width: 38.55px;
+    height: 39px;
+    border:solid 1px #5bc0de ;
+    float: left;
+    text-align: center;
+    line-height: 39px;
+}
+.num1{
+    background: #8a6d3b;
+    color: white;
+}
+.fenye .nextpage{
+    width: 74px;
+    height: 39px;
+    text-align: center;
+    line-height: 39px;
+    /*margin-left: 300px;*/
+    float: left;
+    border: solid 1px #5bc0de;
+}
+.num2:hover{
+    background: #cccccc;
+}
+.num3:hover{
+    background: #cccccc;
+}
+.nextpage:hover{
+    background: #cccccc;
+}
+.search{
+    width: 222.5px;
+    height: 36px;
+    border: solid 1px #cccccc;
+    border-radius: 50px;
+    margin:20px auto;
+    line-height: 36px;
+}
+.search input{
+    margin-left: 10px;
+    /*margin-top: 5px;*/
+    outline: none;
+    border: none;
+}
+.recom{
+    font-size: 18px;
+    margin-top: 35px;
+    margin-left: 20px;
+    color:rgba(0,0,0,0.5) ;
+}
+.recInfo{
+    width: 222.5px;
+    height: 132px;
+    border: solid 1px #cccccc;
+    margin-left: 20px;
+    margin-top: 8px;
+    border-bottom: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.recInfo .recInfoList{
+    width: 100%;
+    height: 44px;
+    border-bottom: solid 1px #cccccc;
+    line-height: 44px;
+    padding-left: 10px;
+    /*font-size: 18px;*/
+}
+.recInfoList a:hover{
+    color:#5bc0de ;
+    text-decoration: underline;
+}
+.all{
+    margin-left: 20px;
+    color: rgba(0,0,0,0.7);
+    margin-top: 40px;
+}
+.telbottom{
+    width: 100%;
+    height: 182px;
+    background: #f5f5f5;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+.bottomcontent{
+    width: 1170px;
+    height: 100%;
+
+    margin: 0 auto;
+
+}
+.bottomcontent p{
+    font-size: 12px;
+    color: #5E7287;
+    text-align: center;
+    line-height: 30px;
+
+
+}
+.telphone{
+    width: 270px;
+    height: 80px;
+    margin: 0 auto;
+
+}
+.tellist img{
+    float: left;
+    width: 26px;
+    height: 26px;
+    padding-top: 20px;
+    margin-left: 42px;
+
+}
+.bottomcontent p.bottomlist{
+    color: #5E7287;
+    /*margin: 0 auto;*/
+}
+.bottomlist a:hover {
+    margin-top: 10px;
+    color: #16b0bc;
+    text-decoration: underline;
+
+}
