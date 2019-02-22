@@ -106,7 +106,7 @@ body{
     float: right;
     position: absolute;
     top: 65px;
-    right: 150px;
+    right: 140px;
     /*background:#FF6700;*/
     border: 1px solid #5E7287;
 }
@@ -130,7 +130,7 @@ body{
     float: right;
     position: absolute;
     top: 65px;
-    right: 100px;
+    right: 90px;
     border: 1px solid #5E7287;
     text-align: center;
     line-height: 50px;
