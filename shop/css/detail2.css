@@ -1,0 +1,583 @@
+#header{
+    width: 100%;
+    height:0.88rem;
+    background-image: linear-gradient(to right,#ff854a ,#f23944);
+}
+.topBar{
+    width: 0.44rem;
+    height: 0.44rem;
+    /*background: #C3E40B;*/
+    float: left;
+    margin-left: 0.25rem;
+    margin-top: 0.21rem;
+    text-align: center;
+    line-height: 0.44rem;
+}
+.topBar i{
+    color: white;
+}
+.topRight{
+    width: 1.11rem;
+    height: 0.44rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    float: right;
+    margin-top: 0.21rem;
+    margin-right: 0.25rem;
+    /*background: #C3E40B;*/
+}
+.topRight .button1{
+    width: 0.44rem;
+    height: 0.44rem;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    line-height: 0.44rem;
+    color: #fe38c0;
+}
+.topRight .button2{
+    width: 0.44rem;
+    height: 0.44rem;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    line-height: 0.44rem;
+    color: #fe38c0;
+}
+.logo{
+    width: 7.5rem;
+    height: 2.45rem;
+    background-image:linear-gradient(to right,#ff854a ,#f23944) ;
+    margin: 0 auto;
+}
+.logoBox{
+    width: 6rem;
+    height:2.45rem ;
+    margin: 0 auto;
+}
+.logoBox .logoImg{
+    float: left;
+    width:1.51rem;
+    height: 1.49rem;
+    background: #16b0bc;
+    border-radius: 0.15rem;
+    margin-top:0.52rem ;
+    border: solid 3px #ffffff;
+
+}
+.logoBox .logoImg img{
+    width:1.41rem ;
+    height: 1.36rem;
+    border-radius: 0.1rem;
+}
+.logoBox .logoInfo{
+    width: 4.22rem;
+    height: 1.8rem;
+    /*background: #cccccc;*/
+    float: left;
+    margin-left: 0.15rem;
+    margin-top: 0.52rem;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-between;*/
+}
+.logoInfo .topTitle{
+    height: 0.29rem;
+    line-height: 0.29rem;
+    /*background: #FFA100;*/
+}
+.logoInfo .topTitle p{
+    font-family: PingFang-SC-Heavy;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #f7f6f6;
+}
+.topE{
+    height: 0.17rem;
+    color:#f7f6f6;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    margin-top: 0.1rem;
+}
+.location{
+    /*width: 4rem;*/
+    height: 0.33rem;
+    /*background: #C3E40B;*/
+    margin-top: 0.23rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.location .meter{
+    width:0.92rem;
+    height: 0.29rem;
+    border-radius: 0.15rem;
+    border: solid 0.02rem #ffffff;
+    text-align: center;
+    line-height: 0.29rem;
+    color: #f7f6f6;
+}
+.location .info1{
+    height: 0.18rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f7f6f6;
+}
+.location .info2{
+    height: 0.15rem;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f7f6f6;
+}
+.pingjia{
+    width:0.24rem;
+    height: 0.23rem;
+    color: #f7f6f6;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+}
+.pingjia p{
+    width: 0.28rem;
+    height: 0.15rem;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f7f6f6;
+    display: block;
+    margin-left: 0.2rem;
+    margin-top: 0.05rem;
+}
+.gonggao{
+    width: 7.5rem;
+    height: 0.23rem;
+    font-family: PingFang-SC-Heavy;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #575757;
+    /*background: #cccccc;*/
+    margin: 0.15rem auto;
+    text-align: center;
+    line-height: 0.23rem;
+}
+.qiehuan{
+    width: 2.88rem;
+    height: 0.48rem;
+    background:#ebe9e9 ;
+    border-radius: 0.24rem;
+    border: solid 0.02rem #616161;
+    margin: 0.2rem auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 0.48rem;
+}
+.qiehuan .order{
+    width: 1.38rem;
+    height: 0.35rem;
+    background: #f44345;
+    border-radius: 0.18rem;
+    border: solid 0.01rem #ffffff;
+    margin-left: 0.02rem;
+    text-align: center;
+    line-height: 0.35rem;
+    margin-top: 0.05rem;
+}
+.shopContent{
+    width: 7.5rem;
+    height: 9.4rem;
+    /*background: #C3E40B;*/
+    margin: 0 auto;
+    position: relative;
+}
+.shopContent .menu{
+    width: 1.78rem;
+    height: 9.4rem;
+    background: #000000;
+    float: left;
+}
+.menu .menuBox{
+    width:1.78rem;
+    height: 6.2rem;
+    /*background: #C3E40B;*/
+    margin-top: 0.88rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menuBox .menuList{
+    width: 1.3rem;
+    height: 0.41rem;
+    border-radius: 0.21rem;
+    margin-left: 0.23rem;
+    border: solid 0.02rem #f44345;
+    text-align: center;
+    line-height: 0.35rem;
+    font-family: PingFang-SC-Heavy;
+    font-size: 0.24rem;
+    color: white;
+    margin-top: 0.35rem;
+}
+li:nth-child(2){
+    background: #d63b3c;
+}
+.shopContent .recommend{
+    width: 5.72rem;
+    height: 9.4rem;
+    background: #cccccc;
+    float: right;
+    position: relative;
+}
+.recommend .recBox{
+    width: 5.19rem;
+    height:7.16rem;
+    /*background: #C3E40B;*/
+    margin: 0.28rem auto ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.recBox .recList{
+    width: 5.19rem;
+    height: 1.62rem;
+    background: #ffffff;
+    box-shadow: 0 -0.02rem 0.21rem 0
+    rgba(187, 185, 187, 0.65);
+    border-radius: 0.15rem;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 0.4rem;
+    /*justify-content: space-between;*/
+}
+.recList .recImg{
+    width: 1.22rem;
+    height: 1.22rem;
+    background: #fd5cdd;
+    border-radius: 0.07rem;
+    margin-left: 0.4rem;
+    margin-top: 0.2rem;
+}
+.recImg img{
+    width: 1.22rem;
+    height: 1.22rem;
+    border-radius: 0.07rem;
+}
+.recList .recInfo{
+    width: 100%;
+    height: 1.22rem;
+    /*background: #16b0bc;*/
+    margin-left: 0.08rem;
+    margin-top: 0.2rem;
+}
+.recInfo .recName p{
+    height: 0.26rem;
+    font-family: PingFang-SC-Heavy;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #5a5a5a;
+}
+.recInfo .shape{
+    width: 2rem;
+    height:0.18rem;
+    /*background: #e16734;*/
+    margin-top: 0.14rem;
+}
+.shape .iconfont{
+    text-align: center;
+    line-height: 0.18rem;
+    color: #f83dbf;
+    height: 0.18rem;
+    display: block;
+    float: left;
+    font-size: 0.16rem;
+
+}
+.recInfo .money{
+    width: 1.19rem;
+    height: 0.19rem;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    margin-top: 0.1rem;
+    color: #ff616a;
+}
+.number{
+    width: 0.96rem;
+    height: 0.18rem;
+    /*background: #C3E40B;*/
+    margin-top: 0.15rem;
+    text-align: center;
+    line-height: 0.18rem;
+}
+.number .circle{
+    width: 0.08rem;
+    height: 0.08rem;
+    background: #f23a44;
+    border-radius: 50%;
+    border: solid 0.02rem rgba(255, 134, 141, 0.63);
+    margin-top: 0.03rem;
+    float: left;
+
+}
+.number p{
+    font-family: SanFranciscoDisplay-Bold;
+    font-size:0.23rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #bdbbbb;
+}
+.recList .math .iconfont{
+    color: #f23a44 ;
+    font-size: 0.36rem;
+    display: block;
+    float: right;
+    margin-top: 0.61rem;
+    margin-right: 0.2rem;
+}
+.recList .add .iconfont{
+    color: #f23a44 ;
+    font-size: 0.36rem;
+    display: block;
+    float: right;
+    margin-top: 0.61rem;
+    margin-right: 0.1rem;
+
+}
+.recList span{
+    display: block;
+    margin-top: 0.61rem;
+    margin-right: 0.15rem;
+    color: #f23a44;
+}
+.shopContent .sbuy{
+    width:7.5rem;
+    height: 1.38rem;
+    background: #ffffff;
+    /*float:right;*/
+    position: absolute;
+    bottom: 0rem;
+    box-shadow: 0 -0.02rem 0.21rem 0
+    rgba(187, 185, 187, 0.75);
+    margin: 0 auto;
+    z-index: 999;
+}
+.sbuy .sbuyLeft{
+    width: 1.7rem;
+    height: 1.1rem;
+    /*background: #C3E40B;*/
+    float: left;
+    margin-top: 0.14rem;
+    margin-left: 0.55rem;
+}
+.sbuyLeft .leftInfo{
+    font-family: PingFang-SC-Heavy;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #848383;
+}
+.sbuyLeft .leftInfo1{
+    margin-top: 0.1rem;
+    font-family: PingFang-SC-Heavy;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color:rgba(0,0,0,0.7);
+
+}
+.sbuy .sbuyRight{
+    width: 2.32rem;
+    height: 1.06rem;
+    /*background: #FFA100;*/
+    float: right;
+    margin-top: 0.18rem;
+    margin-right: 0.44rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sbuyRight .clear{
+    width: 2.32rem;
+    font-family: PingFang-SC-Heavy;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #848383;
+     text-align: right;
+}
+.clear .iconfont{
+    font-size: 0.20rem;
+}
+.sbuyRight .buyNum{
+    width: 2.32rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.buyNum .buyCircle{
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #f23a44;
+    border-radius: 50%;
+    border: solid 0.02rem rgba(255, 134, 141, 0.63);
+    margin-top: 0.12rem;
+    margin-right: 0.05rem;
+    float: left;
+}
+.buyNum p{
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f23a44;
+    float: left;
+}
+.buyNum .buymath .iconfont{
+    color: #f23a44 ;
+    font-size: 0.20rem;
+    display: block;
+    float: right;
+    margin-top: 0.05rem;
+    /*margin-right: 0.15rem;*/
+    margin-left: 0.1rem;
+}
+.buyNum span{
+    display: block;
+    margin-top: 0.02rem;
+    /*margin-right: 0.15rem;*/
+    color: #f23a44;
+}
+.buyNum .buyadd .iconfont{
+    color: #f23a44 ;
+    font-size: 0.20rem;
+    display: block;
+    float: right;
+    margin-top: 0.05rem;
+    margin-right: 0.2rem;
+}
+.sbuyRight .buyNum1{
+    width: 2.32rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.buyNum1 .buyCircle1{
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #f23a44;
+    border-radius: 50%;
+    border: solid 0.02rem rgba(255, 134, 141, 0.63);
+    margin-top: 0.12rem;
+    margin-right: 0.05rem;
+    float: left;
+}
+.buyNum1 p{
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f23a44;
+    float: left;
+    margin-left: 0.13rem;
+}
+.footer{
+    width: 100%;
+    height: 0.99rem;
+    background: #ffffff;
+    box-shadow: 0 -0.02rem 0.21rem 0
+    rgba(187, 185, 187, 0.75);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /*background: white;*/
+    z-index: 999;
+}
+.footer .buyLogo{
+    width: 0.72rem;
+    height: 0.72rem;
+    background: #f23a44;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.72rem;
+    color: white;
+    font-size: 0.36rem;
+    float: left;
+    margin-left: 0.24rem;
+    margin-top: 0.14rem;
+}
+.footer .select{
+    width: 1.74rem;
+    height: 0.5rem;
+    float: left;
+    /*background: #C3E40B;*/
+    margin-left: 0.24rem;
+    margin-top: 0.23rem;
+}
+.select .selInfo{
+    font-family: PingFang-SC-Heavy;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f23a44;
+}
+.select .selInfo1{
+    font-family: PingFang-SC-Heavy;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #848383;
+}
+.footer .goOrder{
+    width: 1.53rem;
+    height: 0.56rem;
+    background: #f23a44;
+    border-radius: 0.28rem;
+    float: right;
+    margin-top: 0.23rem;
+    margin-right: 0.24rem;
+    font-family: PingFang-SC-Heavy;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: white;
+    text-align: center;
+    line-height: 0.56rem;
+}
+.select .numCircle{
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #f23a44;
+    border-radius: 50%;
+    border: solid 0.02rem rgba(255, 134, 141, 0.63);
+    margin-top: 0.12rem;
+    margin-right: 0.05rem;
+    float: left;
+}

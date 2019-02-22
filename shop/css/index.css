@@ -1,0 +1,398 @@
+#header{
+    width: 100%;
+    height:0.88rem;
+    background-image: linear-gradient(to right,#ff854a ,#f23944);
+}
+.topBar{
+    width:0.44rem;
+    height: 0.44rem;
+    border-radius: 50%;
+    background: white;
+    float: left;
+    margin-left: 0.25rem;
+    margin-top: 0.21rem;
+    text-align: center;
+}
+.topBar i{
+    /*font-size: 0.18rem;*/
+    line-height: 0.44rem;
+
+}
+.taiyuan{
+    /*width: 0.52rem;*/
+    height: 0.23rem;
+    float: left;
+    font-family: PingFang-SC-Regular;
+    /*font-size: 0.22rem;*/
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    margin-top: 0.31rem;
+    margin-left: 0.1rem;
+    color: #cccccd;
+}
+.searchBox{
+    width: 4.75rem;
+    height: 0.62rem;
+    float: right;
+    border-radius: 0.3rem;
+    margin-top: 0.15rem;
+    margin-right: 0.26rem;
+    background: rgba(255,255,255,0.7);
+}
+.searchBox input{
+    width: 3.8rem;
+    height: 0.62rem;
+    display: block;
+    border-radius: 0.3rem;
+    border: solid 2px rgba(255,255,255,0);
+    float: left;
+    background: rgba(255,255,255,0);
+    outline: none;
+}
+.searchBox i{
+    display: block;
+    float: right;
+    line-height: 0.62rem;
+    /*margin-top: 0.1rem;*/
+    margin-right: 0.3rem;
+    font-size: 0.22rem;
+    color: white;
+}
+.banner{
+    width: 7.5rem;
+    height: 2.88rem;
+    margin: 0.36rem auto;
+    position: relative;
+}
+.imgBox{
+    width: 7.05rem;
+    height: 2.88rem;
+    margin: 0 auto;
+    box-shadow: 0 0.05rem 0.05rem 0 #ffff00;
+
+
+}
+.imgBox li{
+    width:7.05rem;
+    height:2.88rem ;
+    background: #cccccc;
+    position: absolute;
+    top:0;
+    border-radius: 0.15rem;
+}
+li.active{
+    z-index: 9;
+}
+.imgBox li img{
+    display: block;
+    width: 7.05rem;
+    height: 2.88rem;
+    border-radius: 0.15rem;
+}
+.pagerBox{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 2.5rem;
+    left: 3.4rem;
+    width: 0.67rem;
+    height: 0.16rem;
+    z-index: 99;
+}
+.pagerBox li{
+    width: 0.13rem;
+    height: 0.13rem;
+    border-radius: 50%;
+    background: white;
+
+}
+.pagerBox li.active{
+    background: red;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 6.73rem;
+    height: 3.39rem;
+    margin: 1rem auto;
+
+}
+.nav a{
+
+    width: 1.47rem;
+    height: 1.98rem;
+    position: relative;
+}
+.nav a img{
+    display: block;
+    width: 1.4rem;
+    height: 1.4rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.nav a p{
+    width: 1.47rem;
+    height: 0.24rem;
+    line-height: 0.24rem;
+    /*font-size: 0.24rem;*/
+    margin-top: 1.6rem;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+.recommend{
+    width: 2.3rem;
+    height: 0.48rem;
+    font-family: PingFang-SC-Regular;
+    /*font-size: 0.24rem;*/
+    font-weight: normal;
+    font-stretch: normal;
+    text-align: center;
+    line-height: 0.48rem;
+    border: 0.02rem solid rgba(0,0,0,0.5);
+    margin: 0.1rem auto;
+    color: #7c4705
+}
+.rec{
+    width: 1.65rem;
+    height: 0.18rem;
+    color: #7c4705;
+    font-family: NSimSun;
+    /*font-size: 0.22rem;*/
+    font-weight: normal;
+    font-stretch: normal;
+   margin: 0.05rem auto;
+}
+.food{
+    width: 7.5rem;
+    height: 4rem;
+    margin: 0.5rem auto;
+}
+.foodBox{
+    width: 7.03rem;
+    height: 3.06rem;
+    margin:0 auto ;
+    background: #FFA100;
+    border-radius: 0.15rem;
+}
+.foodBox img{
+    width: 7.03rem;
+    height: 3.06rem;
+    border-radius: 0.15rem;
+}
+.infoBox{
+    /*width: 3.2rem;*/
+    height: 0.26rem;
+    font-family: PingFang-SC-Regular;
+    /*font-size: 0.26rem;*/
+    font-weight: normal;
+    font-stretch: normal;
+    margin-top: 0.02rem;
+    color: #6a605e;
+    margin-left: 0.24rem;
+}
+.info{
+    /*width: 3.9rem;*/
+    height: 0.21rem;
+    font-family: PingFang-SC-Regular;
+    font-weight: normal;
+    font-stretch: normal;
+    margin-top: 0.05rem;
+    margin-left: 0.24rem;
+    color: #a69d97;
+}
+.hotdeg{
+    width:7.03rem;
+    /*height:0.24rem;*/
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-top: 0.26rem;
+    margin-left: 0.22rem;
+    position: relative;
+}
+.hotLeft{
+    height:0.24rem ;
+    display: flex;
+    justify-content: space-between;
+}
+.hotLeft p{
+    font-family: PingFang-SC-Regular;
+    color: #a69d97;
+}
+.hotRight{
+    height: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.24rem;
+}
+.hotRight p{
+    font-family: PingFang-SC-Regular;
+    color: #a69d97;
+}
+.come{
+    width: 1.16rem;
+    height: 0.37rem;
+    border-radius: 0.17rem;
+    background-image: linear-gradient(to right,#c4c664,#fe0402);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-0.08rem);
+}
+.come p{
+    color: white;
+    text-align: center;
+    line-height: 0.37rem;
+}
+.shopfood{
+    width: 7.5rem;
+    height: 6rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+   /*margin-bottom: 0.24rem;*/
+    margin: 0.5rem auto;
+
+}
+.shopBox{
+    width: 6.67rem;
+    height: 1.72rem;
+    border-radius: 0.2rem;
+    background: white;
+    margin-left: 0.24rem;
+    box-shadow:0 0 0.03rem 0.04rem #cccccc;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin: 0 auto;
+
+}
+.shopImg{
+    width: 1.39rem;
+    height: 1.39rem;
+    border-radius: 0.1rem;
+    background: #FFA100;
+    margin: 0.14rem;
+}
+.shopImg img{
+    width: 1.39rem;
+    height: 1.39rem;
+    border-radius: 0.1rem;
+}
+.shopdec{
+    width:3.36rem;
+    height: 1.39rem;
+    margin-top: 0.14rem;
+    display: flex;
+    flex-wrap: wrap;
+   padding-top: 0.14rem;
+    justify-content: space-between;
+
+}
+.shopdec .name{
+    /*width:2.86rem;*/
+    height: 0.3rem;
+}
+.shopdec .sale{
+    width:2.3rem;
+    height: 0.19rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.02rem;
+    color: white;
+}
+.shopBox .redu{
+    width:3rem ;
+    height: 0.3rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-top: 0.08rem;
+
+}
+.shopdec .name p{
+    font-family: PingFang-SC-Regular;
+    color: #59504c;
+}
+.sale .saleway1{
+    /*width: 0.67rem;*/
+    height: 0.3rem;
+    background:#e4007f;
+    line-height:0.3rem;
+    margin-left: 0.03rem;
+}
+.sale .saleway2{
+    /*width: 0.67rem;*/
+    height: 0.3rem;
+    background:#22ac38;
+    line-height:0.3rem;
+}
+.sale .saleway3{
+    /*width: 0.67rem;*/
+    height: 0.3rem;
+    background:#f8170c;
+    line-height:0.3rem;
+}
+.redu .reduLeft{
+    width: 1.5rem;
+    height:0.24rem ;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0.24rem;
+}
+.redu .reduLeft p{
+    font-family: PingFang-SC-Regular;
+    color: #a69d97;
+}
+.redu .reduRight{
+    width: 1.5rem;
+    height:0.24rem ;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0.24rem;
+}
+.redu .reduRight p{
+    font-family: PingFang-SC-Regular;
+    color: #a69d97;
+}
+.shopBox .qiang{
+    width: 0.79rem;
+    height: 0.79rem;
+    border-radius: 50%;
+    float: right;
+    margin-top:0.48rem ;
+    text-align: center;
+    line-height: 0.79rem;
+    background-image: linear-gradient(to right,#c2ce68,#e16734 );
+    color: white;
+    font-size: 0.36rem;
+    position: absolute;
+    right: -0.26rem;
+}
+.footer{
+    width: 100%;
+    height: 0.93rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 0.1rem;
+   text-align: center;
+    box-shadow: 0 -0.05rem 0.05rem #cccccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: white;
+    color: #333333;
+}
+.footer a .footerList{
+    color: #333333;
+}
+.footer  .footerList1{
+    color: #e16734;
+}
+
